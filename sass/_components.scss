@@ -1,0 +1,38 @@
+// =========== BUTTON ============
+.btn {
+  color: $color-white;
+  border-radius: 4rem;
+  background-color: $color-primary;
+  box-shadow: $gray-shadow-regular;
+  padding: 2.5rem 10rem;
+  font-family: $font-primary;
+  font-size: 2em;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: $gray-shadow-dark;
+  }
+
+  &:active {
+    transform: translateY(1px);
+    box-shadow: $gray-shadow-dark;
+  }
+
+  &--small {
+  }
+  &--transparent {
+  }
+}
+
+// ============ LOGO ==============
+.logo {
+  &__image {
+  }
+  &__link {
+    display: block;
+  }
+}
