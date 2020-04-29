@@ -1,3 +1,18 @@
+// COLOR VARIABLES
+$color-primary: #ff52c1;
+$color-primary-dark: #9952ff;
+
+$color-black: #00252e;
+
+$color-grey: #808e9a;
+
+$gray-shadow: 0px 0px 13px 0px rgba(0, 37, 46, 0.22);
+$pink-shadow: 0px 0px 9px 0px rgba(255, 82, 193, 0.22);
+
+// FONT VARIABLES
+$font-primary: "Open Sans", sans-serif;
+$font-display: "Poppins", sans-serif;
+
 * {
   margin: 0;
   padding: 0;
@@ -13,10 +28,10 @@ html {
   box-sizing: border-box;
   font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
 }
-// font-family: 'Poppins', sans-serif;
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: $font-primary;
+  color: $color-black;
   font-weight: 400;
   line-height: 1.6;
   min-height: 100vh;
