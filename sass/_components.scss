@@ -4,7 +4,7 @@
   border-radius: 4rem;
   background-color: $color-primary;
   box-shadow: $gray-shadow-regular;
-  padding: 2.5em 10em;
+  padding: 2.5rem 10rem;
   font-family: $font-primary;
   font-size: 2em;
   font-weight: 700;
@@ -73,8 +73,6 @@
 
 // ============ LOGO ==============
 .logo {
-  &__image {
-  }
   &__link {
     display: block;
     height: 3.8em;
