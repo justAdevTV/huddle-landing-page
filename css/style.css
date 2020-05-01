@@ -18,6 +18,21 @@ body {
   line-height: 1.6;
   min-height: 100vh; }
 
+.heading-1, .heading-2 {
+  line-height: 1.5;
+  color: #00252e; }
+
+.heading-1 {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: 4.8em; }
+
+.heading-2 {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 2em; }
+
 .btn {
   color: #ffffff;
   border-radius: 4rem;
@@ -73,6 +88,12 @@ body {
   display: block;
   height: 3.8em; }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 8rem;
+  padding-bottom: 0; }
+
 .header {
   padding: 22.6rem 21.5rem;
   padding-bottom: 12rem;
@@ -107,24 +128,3 @@ body {
         font-weight: 400;
         text-align: center;
         color: #808e9a; }
-
-.heading-1, .heading-2 {
-  line-height: 1.5;
-  color: #00252e; }
-
-.heading-1 {
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-  font-size: 4.8em; }
-
-.heading-2 {
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  font-size: 2em; }
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 8rem;
-  padding-bottom: 0; }
