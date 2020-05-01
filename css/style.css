@@ -83,6 +83,30 @@ body {
     padding-bottom: 4.8rem; }
   .header__mockups {
     margin-top: 12rem; }
+  .header__metrics {
+    padding: 12.3rem 6.5rem;
+    padding-bottom: 13.3rem;
+    display: flex;
+    justify-content: space-between; }
+    .header__metrics__info__icon {
+      display: block;
+      width: 5rem; }
+    .header__metrics__info__text {
+      line-height: 1.5;
+      font-size: 1em; }
+      .header__metrics__info__text--main {
+        display: block;
+        font-size: 9.6em;
+        font-weight: 700;
+        text-align: left;
+        color: #00252e; }
+      .header__metrics__info__text--sub {
+        display: block;
+        padding-top: 3px;
+        font-size: 2.4em;
+        font-weight: 400;
+        text-align: center;
+        color: #808e9a; }
 
 .heading-1, .heading-2 {
   line-height: 1.5;
