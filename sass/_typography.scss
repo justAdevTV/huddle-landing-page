@@ -16,3 +16,10 @@
   font-weight: 400;
   font-size: 2em;
 }
+
+.heading-3 {
+  @extend %heading;
+  font-family: $font-display;
+  font-weight: 700;
+  font-size: 4em;
+}
