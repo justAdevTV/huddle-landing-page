@@ -19,7 +19,6 @@
   }
 
   &__info {
-    position: relative;
     display: grid;
     // TODO: Change minmax
     grid-template-columns: repeat(auto-fit, minmax(52rem, 1fr));
