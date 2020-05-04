@@ -4,6 +4,7 @@
   border-radius: 4rem;
   background-color: $color-primary;
   box-shadow: $gray-shadow-regular;
+  border: none;
   padding: 2.5rem 10rem;
   font-family: $font-primary;
   font-size: 2em;
@@ -30,7 +31,6 @@
 
   &--rectangle {
     padding: 1.2rem 4.1rem;
-    border: none;
     border-radius: 0.5rem;
     font-size: 1.6em;
     box-shadow: none;
