@@ -15,7 +15,8 @@
 
   &__metrics {
     padding: 12.3rem 6.5rem;
-    padding-bottom: 13.3rem;
+    // There's no "exact" value on the mockup
+    padding-bottom: 9rem;
     display: flex;
     justify-content: space-between;
 
@@ -79,6 +80,7 @@
   // https://medium.com/@barrypeng6/why-should-not-use-rem-unit-in-media-query-5645d0163ce5#:~:text=Unit%20rem%20in%20media%20queries,queries%20before%20the%20bug's%20fixed.
   @media (max-width: $width-mobile) {
     padding: 11.2rem 4rem;
+    padding: 1rem;
 
     &__secondary-text {
       padding: 2.4rem 0;
