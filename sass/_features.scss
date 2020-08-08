@@ -57,4 +57,32 @@
       background-color: inherit;
     }
   }
+
+  @media (max-width: $width-mobile) {
+    &__info {
+      padding: 3rem 2.8rem;
+      &__image {
+        padding: 0 3rem;
+        grid-column: 1;
+        grid-row: 1;
+        max-width: 27rem;
+      }
+
+      &__text {
+        max-width: 32rem;
+        grid-row: 2;
+        margin: 0;
+        margin-top: 7.42rem;
+        padding: 0;
+        text-align: center;
+        &--main {
+          font-size: 2em;
+        }
+        &--sub {
+          font-size: 1.4em;
+          padding-top: 1.6rem;
+        }
+      }
+    }
+  }
 }

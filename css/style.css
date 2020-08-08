@@ -228,6 +228,27 @@ body {
   .feature__info--no-background {
     background-color: inherit; }
 
+@media (max-width: 37.5em) {
+  .feature__info {
+    padding: 3rem 2.8rem; }
+    .feature__info__image {
+      padding: 0 3rem;
+      grid-column: 1;
+      grid-row: 1;
+      max-width: 27rem; }
+    .feature__info__text {
+      max-width: 32rem;
+      grid-row: 2;
+      margin: 0;
+      margin-top: 7.42rem;
+      padding: 0;
+      text-align: center; }
+      .feature__info__text--main {
+        font-size: 2em; }
+      .feature__info__text--sub {
+        font-size: 1.4em;
+        padding-top: 1.6rem; } }
+
 .call-to-action {
   text-align: center;
   padding-top: 14rem;
