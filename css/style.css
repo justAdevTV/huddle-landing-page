@@ -16,7 +16,8 @@ body {
   color: #00252e;
   font-weight: 400;
   line-height: 1.6;
-  min-height: 100vh; }
+  min-height: 100vh;
+  width: 100vw; }
 
 .heading-1, .heading-2, .heading-3 {
   line-height: 1.5;
@@ -26,6 +27,9 @@ body {
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   font-size: 4.8em; }
+  @media (max-width: 37.5em) {
+    .heading-1 {
+      font-size: 2.4em; } }
 
 .heading-2 {
   font-family: "Open Sans", sans-serif;
@@ -56,6 +60,10 @@ body {
   .btn:active {
     transform: translateY(1px);
     box-shadow: 0px 6px 13px 0px rgba(0, 37, 46, 0.44); }
+  @media (max-width: 37.5em) {
+    .btn {
+      font-size: 1.2em;
+      padding: 1.1rem 4rem; } }
   .btn--small {
     padding: 0.9rem 3rem;
     font-size: 1.6em;
@@ -118,6 +126,10 @@ body {
   justify-content: space-between;
   padding: 8rem;
   padding-bottom: 0; }
+  @media (max-width: 37.5em) {
+    .nav {
+      padding: 2.4rem;
+      padding-bottom: 0; } }
 
 .header {
   padding: 22.6rem 21.5rem;
@@ -128,7 +140,8 @@ body {
     padding: 2.7rem 20rem;
     padding-bottom: 4.8rem; }
   .header__mockups {
-    margin-top: 12rem; }
+    margin-top: 12rem;
+    max-width: 100%; }
   .header__metrics {
     padding: 12.3rem 6.5rem;
     padding-bottom: 13.3rem;
@@ -153,6 +166,12 @@ body {
         font-weight: 400;
         text-align: center;
         color: #808e9a; }
+  @media (max-width: 37.5em) {
+    .header {
+      padding: 11.2rem 4rem; }
+      .header__secondary-text {
+        padding: 2.4rem 0;
+        font-size: 1.4em; } }
 
 .feature__background {
   display: block;

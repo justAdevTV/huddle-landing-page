@@ -23,6 +23,11 @@
     box-shadow: $gray-shadow-dark;
   }
 
+  @media (max-width: $width-mobile) {
+    font-size: 1.2em;
+    padding: 1.1rem 4rem;
+  }
+
   &--small {
     padding: 0.9rem 3rem;
     font-size: 1.6em;

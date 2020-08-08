@@ -3,7 +3,6 @@
   padding-bottom: 12rem;
   text-align: center;
   font-size: inherit;
-
   &__secondary-text {
     padding: 2.7rem 20rem;
     padding-bottom: 4.8rem;
@@ -11,6 +10,7 @@
 
   &__mockups {
     margin-top: 12rem;
+    max-width: 100%;
   }
 
   &__metrics {
@@ -44,6 +44,16 @@
           color: $color-grey;
         }
       }
+    }
+  }
+
+  // https://medium.com/@barrypeng6/why-should-not-use-rem-unit-in-media-query-5645d0163ce5#:~:text=Unit%20rem%20in%20media%20queries,queries%20before%20the%20bug's%20fixed.
+  @media (max-width: $width-mobile) {
+    padding: 11.2rem 4rem;
+
+    &__secondary-text {
+      padding: 2.4rem 0;
+      font-size: 1.4em;
     }
   }
 }
