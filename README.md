@@ -2,7 +2,6 @@
 <br />
 <p align="center">
   <a href="https://www.frontendmentor.io/solutions/clean-responsive-layout-using-sass-and-bem-kkztYMmHK">
-    
     <img src="https://miro.medium.com/max/1124/1*dWe_Ryn_omllG8E6eeuWEw.png" alt="Logo"  height="80">
   </a>
 
