@@ -99,6 +99,9 @@
   }
 
   @media (max-width: $width-mobile) {
+    &__background {
+      margin-bottom: -0.75px;
+    }
     &__content {
       padding: 4.6rem 2.8rem;
 
@@ -106,6 +109,7 @@
         "newsletter"
         "contact"
         "socials";
+      grid-template-columns: initial;
     }
     &__info {
       &__contact {
