@@ -1,0 +1,14 @@
+.call-to-action {
+  text-align: center;
+  padding-top: 14rem;
+  padding-bottom: 17rem;
+
+  @media (max-width: $width-mobile) {
+    padding-top: 12rem;
+    padding-bottom: 15rem;
+  }
+
+  &__text {
+    padding-bottom: 4rem;
+  }
+}
