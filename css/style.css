@@ -138,6 +138,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 8rem;
+  padding-right: 6rem;
   padding-bottom: 0; }
   @media (max-width: 37.5em) {
     .nav {
@@ -215,7 +216,7 @@ body {
     padding-top: 4rem; }
 
 .feature--3 > div {
-  padding-top: 2rem; }
+  padding-top: 3rem; }
 
 .feature__info {
   display: grid;
@@ -271,8 +272,7 @@ body {
 
 .call-to-action {
   text-align: center;
-  padding-top: 14rem;
-  padding-bottom: 17rem; }
+  padding: 18rem 0; }
   @media (max-width: 37.5em) {
     .call-to-action {
       padding-top: 12rem;
@@ -289,9 +289,9 @@ body {
   display: grid;
   grid-template-areas: "contact newsletter" "socials .";
   grid-template-columns: repeat(auto-fit, minmax(34rem, 1fr));
-  grid-column-gap: 25rem;
+  grid-column-gap: 16rem;
   background-color: #00252e;
-  padding: 11.5rem 10rem; }
+  padding: 12.25rem 12rem; }
 
 .footer__info {
   color: #ffffff; }
@@ -300,10 +300,10 @@ body {
   .footer__info--newsletter {
     grid-area: newsletter; }
   .footer__info__logo {
-    padding-bottom: 2.7rem;
+    padding-bottom: 2.2rem;
     width: 24rem; }
   .footer__info__newsletter__text {
-    width: 70%;
+    width: 67%;
     font-size: 1em;
     padding-bottom: 4rem; }
     .footer__info__newsletter__text--main {
@@ -329,7 +329,7 @@ body {
     width: 3.2rem;
     height: 3.2rem; }
   .footer__info__text {
-    width: 68%;
+    width: 66%;
     line-height: 1.714;
     font-weight: 600;
     font-size: 1.4em; }

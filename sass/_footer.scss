@@ -12,9 +12,9 @@
       "socials .";
     // TODO: Change minmax
     grid-template-columns: repeat(auto-fit, minmax(34rem, 1fr));
-    grid-column-gap: 25rem;
+    grid-column-gap: 16rem;
     background-color: $color-black;
-    padding: 11.5rem 10rem;
+    padding: 12.25rem 12rem;
   }
 
   &__info {
@@ -29,12 +29,12 @@
     }
 
     &__logo {
-      padding-bottom: 2.7rem;
+      padding-bottom: 2.2rem;
       width: 24rem;
     }
     &__newsletter {
       &__text {
-        width: 70%;
+        width: 67%;
         font-size: 1em;
         padding-bottom: 4rem;
         &--main {
@@ -71,7 +71,7 @@
       }
     }
     &__text {
-      width: 68%;
+      width: 66%;
       line-height: 1.714;
       font-weight: 600;
       font-size: 1.4em;
