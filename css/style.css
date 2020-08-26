@@ -26,7 +26,7 @@ body {
 .heading-1 {
   font-weight: 700;
   font-family: "Poppins", sans-serif;
-  font-size: 4.8em; }
+  font-size: 4.78em; }
   @media (max-width: 37.5em) {
     .heading-1 {
       font-size: 2.4em; } }
@@ -146,14 +146,14 @@ body {
 
 .header {
   padding: 22.6rem 21.5rem;
-  padding-bottom: 12rem;
+  padding-bottom: 4rem;
   text-align: center;
   font-size: inherit; }
   .header__secondary-text {
     padding: 2.7rem 20rem;
     padding-bottom: 4.8rem; }
   .header__mockups {
-    margin-top: 12rem;
+    margin-top: 11rem;
     max-width: 100%; }
   .header__metrics {
     padding: 12.3rem 6.5rem;
@@ -211,13 +211,19 @@ body {
 .feature--2 {
   padding-top: 19rem;
   padding-bottom: 11.1rem; }
+  .feature--2 > div {
+    padding-top: 4rem; }
+
+.feature--3 > div {
+  padding-top: 2rem; }
 
 .feature__info {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(52rem, 1fr));
   grid-column-gap: 3rem;
   background-color: #f6fbff;
-  padding: 3rem 8rem; }
+  padding: 3rem 8rem;
+  padding-top: 7.25rem; }
   .feature__info__text {
     z-index: 1;
     font-size: 1em;
@@ -276,7 +282,8 @@ body {
 
 .footer__background {
   display: block;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: -0.75px; }
 
 .footer__content {
   display: grid;
@@ -343,8 +350,6 @@ body {
     padding-top: 8rem; }
 
 @media (max-width: 37.5em) {
-  .footer__background {
-    margin-bottom: -0.75px; }
   .footer__content {
     padding: 4.6rem 2.8rem;
     grid-template-areas: "newsletter" "contact" "socials";

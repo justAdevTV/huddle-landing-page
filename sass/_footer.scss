@@ -2,6 +2,7 @@
   &__background {
     display: block;
     width: 100%;
+    margin-bottom: -0.75px;
   }
 
   &__content {
@@ -99,9 +100,6 @@
   }
 
   @media (max-width: $width-mobile) {
-    &__background {
-      margin-bottom: -0.75px;
-    }
     &__content {
       padding: 4.6rem 2.8rem;
 
