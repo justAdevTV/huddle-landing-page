@@ -104,14 +104,14 @@
 
         <div class="feature__info">
           <!-- Text -->
-          <p class="feature__info__text">
-            <span class="feature__info__text--main">Grow Together</span>
-            <span class="feature__info__text--sub">
+          <div class="feature__info__text">
+            <h3 class="feature__info__text--main">Grow Together</h3>
+            <p class="feature__info__text--sub">
               Generate meaningful discussions with your audience and build a
               strong, loyal community. Think of the insightful conversations you
               miss out on with a feedback form.
-            </span>
-          </p>
+            </p>
+          </div>
 
           <!-- Image -->
           <img
@@ -141,19 +141,19 @@
             class="feature__info__image"
           />
           <!-- Text -->
-          <p class="feature__info__text">
-            <span class="feature__info__text--main">Flowing Conversations</span>
-            <span class="feature__info__text--sub">
+          <div class="feature__info__text">
+            <h3 class="feature__info__text--main">Flowing Conversations</h3>
+            <p class="feature__info__text--sub">
               You wouldn't paginate a conversation in real life, so why do it
               online? Our threads have just-in-time loading for a more natural
               flow.
-            </span>
-          </p>
+            </p>
+          </div>
         </div>
       </div>
 
       <!-- Users-->
-      <div class="feature">
+      <div class="feature feature--3">
         <!-- Top Background Vector -->
         <img
           class="feature__background feature__background--top"
@@ -168,14 +168,14 @@
         />
         <div class="feature__info">
           <!-- Text -->
-          <p class="feature__info__text">
-            <span class="feature__info__text--main">Your Users</span>
-            <span class="feature__info__text--sub">
-              You wouldn't paginate a conversation in real life, so why do it
-              online? Our threads have just-in-time loading for a more natural
-              flow.
-            </span>
-          </p>
+          <div class="feature__info__text">
+            <h3 class="feature__info__text--main">Your Users</h3>
+            <p class="feature__info__text--sub">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
           <!-- Image -->
           <img
             src="images/illustration-your-users.svg"
@@ -213,6 +213,8 @@
           images/bg-footer-top-mobile.svg   550w,
           images/bg-footer-top-desktop.svg 1500w
         "
+        sizes="(max-width: 600px) 550px,
+        1500px"
         alt="footer top vector"
       />
       <!-- Text & info -->
@@ -270,7 +272,7 @@
           <!-- Subscribe -->
           <!-- Didn't make this a form for static view -->
           <div class="footer__info__newsletter__form">
-            <input type="text" class="input" />
+            <input aria-label="Email Newsletter" type="text" class="input" />
             <button class="btn btn--rectangle">Subscribe</button>
           </div>
         </div>
