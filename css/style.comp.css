@@ -288,7 +288,7 @@ body {
 .footer__content {
   display: grid;
   grid-template-areas: "contact newsletter" "socials .";
-  grid-column-gap: 8rem;
+  grid-column-gap: 12rem;
   background-color: #00252e;
   padding: 12.25rem 12rem;
   padding-bottom: 10rem; }
