@@ -17,25 +17,23 @@
     ·
     <a href="https://github.com/justAdevTV/huddle-landing-page/issues">Report Bug</a>
     ·
-    <a href="https://github.com/justAdevTV/huddle-landing-page/issues">Request Feature</a>
+    <a href="https://github.com/justAdevTV/huddle-landing-page/pull">Request Feature</a>
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
+
 ## Table of Contents
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
-
-
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 <img src="https://i.imgur.com/vVrxT6M.png" alt="Logo">
@@ -50,12 +48,12 @@ I'm also here for questions!
 
 Thanks, JP
 
-
 ### Built With
 
-* [Sass](https://sass-lang.com/)
+- [Sass](https://sass-lang.com/)
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -66,28 +64,28 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
 Justin Punzalan - [@justpunz](https://twitter.com/justpunz) - iam@justpunz.com
 [LinkedIn](https://www.linkedin.com/in/justin-punz/)
 
 <!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [Frondend-mentor](https://www.frontendmentor.io/)
 
+## Acknowledgements
+
+- [Frondend-mentor](https://www.frontendmentor.io/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
